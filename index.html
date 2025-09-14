@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book Haven</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <script defer src="assets/js/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Book Haven logo" />
+          <span>Book Haven Bookstore</span>
+        </a>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="custom.html">Community</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero" aria-labelledby="home-title">
+        <h1 id="home-title">Welcome to Book Haven</h1>
+        <p class="lede">
+          Your local destination for books, magazines and stationery. Explore
+          categories and current promotions below.
+        </p>
+      </section>
+
+      <section aria-labelledby="highlights">
+        <h2 id="highlights" class="subtitle">Highlights &amp; promos</h2>
+        <div class="grid cols-4">
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Book1.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Staff Pick</h3>
+              <p>Cheesy page‑turner: <em>Brie Mine 4Ever</em>.</p>
+              <a class="btn btn-cta" href="gallery.html">Shop now</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Magazine1.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>New Magazine</h3>
+              <p><em>Ball</em> — for pickleball fanatics.</p>
+              <a class="btn btn-cta" href="gallery.html">Browse magazines</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_ToteBag.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Merch</h3>
+              <p>Bookish totes now in stock.</p>
+              <a class="btn btn-cta" href="gallery.html">See merch</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Stickers.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Stickers</h3>
+              <p>Set of four reading‑positive stickers.</p>
+              <a class="btn btn-cta" href="gallery.html">View set</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="categories" style="margin-top: 1.25rem">
+        <h2 id="categories" class="subtitle">Shop by category</h2>
+        <div class="grid cols-2">
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Book2.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Books</h3>
+              <p>Fiction, non-fiction, YA, and more.</p>
+              <a class="btn btn-outline" href="gallery.html">Explore books</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Magazine2.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Magazines</h3>
+              <p>From travel to food and sport.</p>
+              <a class="btn btn-outline" href="gallery.html"
+                >Explore magazines</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_Notebook.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Stationery</h3>
+              <p>Notebooks, journals and office bits.</p>
+              <a class="btn btn-outline" href="gallery.html"
+                >Explore stationery</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <div class="media" aria-hidden="true">
+              <img src="assets/img/gallery/Client3_ToteBag.png" alt="" />
+            </div>
+            <div class="content">
+              <h3>Gifts</h3>
+              <p>Perfect presents for readers.</p>
+              <a class="btn btn-outline" href="gallery.html">Explore gifts</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="perks" style="margin-top: 1.25rem">
+        <h2 id="perks" class="subtitle">Perks</h2>
+        <div class="card">
+          <div class="content">
+            <p>
+              Free local delivery over £25 · Loyalty stamps for every purchase.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <section class="footer-block">
+          <h5 class="footer-title">Subscribe</h5>
+          <p class="subtitle">
+            Join our newsletter for staff picks and events.
+          </p>
+          <form aria-label="Subscribe to newsletter" class="footer-subscribe">
+            <label class="visually-hidden" for="sub-email">Email</label>
+            <input
+              id="sub-email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            />
+            <button class="btn" type="button">Subscribe</button>
+          </form>
+        </section>
+
+        <section class="footer-block">
+          <h5 class="footer-title">Follow us</h5>
+          <ul class="socials" aria-label="Social media links">
+            <li>
+              <a class="social-link" href="#" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.8A5.2 5.2 0 1 1 6.8 13 5.2 5.2 0 0 1 12 7.8zm0 2A3.2 3.2 0 1 0 15.2 13 3.2 3.2 0 0 0 12 9.8zm5.55-3.05a1.15 1.15 0 1 1-1.15 1.15 1.15 1.15 0 0 1 1.15-1.15z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="#" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M13 22v-8h3l1-4h-4V7.5A1.5 1.5 0 0 1 14.5 6H17V2h-3.5A4.5 4.5 0 0 0 9 6.5V10H6v4h3v8z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-link" href="#" aria-label="X">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M3 3h3.8l5.17 7.1L17.5 3H21l-7.6 9.7L21 21h-3.8l-5.5-7.55L6.5 21H3l7.9-9.9z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="footer-block">
+          <h5 class="footer-title">Site</h5>
+          <nav aria-label="Footer">
+            <ul class="footer-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="custom.html">Community</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <small>&copy; 2025 Book Haven Bookstore</small>
+          <a href="#home-title">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
