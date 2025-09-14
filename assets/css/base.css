@@ -364,12 +364,6 @@ footer.site-footer {
   transform: translateY(1px);
 }
 
-.btn-primary {
-  /*semantic alias uses base .btn*/
-}
-.btn-secondary {
-}
-
 /*Alternative button style: intensity indigo base, dusty rose hover*/
 .btn--alt {
   background: var(--intensity-indigo);
@@ -391,12 +385,6 @@ footer.site-footer {
 .site-header a:hover,
 .site-footer a:hover {
   color: var(--aged-gold);
-}
-
-/*Modal base styles for cart*/
-.cart-modal-backdrop {
-}
-.cart-modal {
 }
 
 /*Footer enhancements (additive)*/
